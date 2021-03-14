@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.test.controller;
 
 import java.util.Arrays;
 
@@ -9,9 +9,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.User;
+
 @RestController
-@RequestMapping("home")
-public class HomeController {
+@RequestMapping("second")
+public class SecondHomeController {
 	
 	@Autowired
 	@Qualifier("getItAdminUser")
